@@ -12,7 +12,7 @@ int measurement = 0;
 int led = 0;
 
 bool border = false;
-bool high_frequency = false;
+bool high_frequency = true;
 
 void setup() {
   // Configuração do Timer 1
