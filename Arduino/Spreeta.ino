@@ -75,7 +75,12 @@ ISR(TIMER2_OVF_vect) {
     } else if (measurement_count == 0 && measurement == 1) {
         measurement = 0;
         measurement_count = 111;
-        start = 0; //
+        if(high_frequency){
+          start = 1;
+        }
+        else{
+          start = 0;
+        }
         led = 0;
     }
     if (led == 1) {
