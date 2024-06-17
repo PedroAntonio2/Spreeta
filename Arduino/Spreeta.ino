@@ -98,7 +98,4 @@ ISR(TIMER2_OVF_vect) {
   if(high_frequency){
     TCNT2 = 255;
   }
-  else{
-    TCNT2 = 0;
-  }
 }
