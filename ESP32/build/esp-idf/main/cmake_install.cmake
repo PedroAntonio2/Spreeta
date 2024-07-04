@@ -1,4 +1,4 @@
-# Install script for directory: /home/PedroAntonio/SpreetaESP32/main
+# Install script for directory: /home/PedroAntonio/Spreeta_ESP32/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
